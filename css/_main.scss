@@ -1,0 +1,17 @@
+//color
+$orange: #e45028;
+$yellow: #f9b43b;
+$black: #2f3234;
+$red: red;
+
+@import "misc/layout";
+@import "misc/fonts";
+
+
+
+@import "blocks/hero.scss";
+@import "blocks/header.scss";
+@import "blocks/nav.scss";
+@import "blocks/btn.scss";
+@import "blocks/title.scss";
+@import "blocks/best.scss";
