@@ -1,0 +1,13 @@
+
+.title { 
+    color:#f9bb4c;
+    font-size: 75px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: "Gagalin", Arial, sans-serif;
+    text-align: center;
+
+    &--color-black {
+        color: black;
+    }
+}

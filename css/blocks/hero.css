@@ -1,0 +1,25 @@
+.hero {
+  background: url(/img/fon/hero-bg.png) center center/cover no-repeat; }
+
+.hero__container {
+  -webkit-box-flex: .75;
+  -ms-flex: .75;
+  flex: .75; }
+
+.hero__title {
+  color: #f9bb4c;
+  font-size: 65px;
+  text-transform: uppercase;
+  margin-bottom: 20px; }
+
+.hero__desk {
+  font-size: 30px;
+  color: #fff; }
+
+.hero__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }

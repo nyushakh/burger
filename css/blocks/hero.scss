@@ -1,0 +1,21 @@
+.hero {
+    background: url(/img/fon/hero-bg.png) center center / cover no-repeat;
+     
+}
+
+.hero__container {
+    flex: .75;
+}
+
+
+
+}  
+.hero__desk {
+    font-size: 30px;
+    color: #fff;
+    font-family: "Lifehack", Arial, sans-serif;
+}
+.hero__content {
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,21 @@
+.btn {
+  border-radius: 5px;
+  padding: 10px 15px;
+  background: red;
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase; }
+
+.to-next-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  background: transparent;
+  border: none; }
+
+.arrow-scroll {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
