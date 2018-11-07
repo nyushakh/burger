@@ -115,6 +115,8 @@ template { display: none; }
 
 ul { list-style: none; }
 
+h1 { font-style: normal; }
+
 @font-face { font-family: 'Gagalin-Regular'; src: url("/fonts/Gagalin-Regular.woff") format("woff"); font-weight: normal; font-style: normal; }
 
 @font-face { font-family: 'Lifehack-Medium'; src: url("/fonts/Lifehack-Medium.woff") format("woff"); font-weight: bold; font-style: normal; }
@@ -147,7 +149,7 @@ ul { list-style: none; }
 
 .arrow-scroll { position: absolute; right: 535px; }
 
-.title { color: #f9bb4c; font-size: 72px; text-transform: uppercase; margin-bottom: 20px; font-family: 'Gagalin-Regular',Arial, sans-serif; }
+.title { color: #f9bb4c; font-size: 72px; text-transform: uppercase; margin-bottom: 20px; font-family: 'Gagalin-Regular',Arial, sans-serif; font-style: normal; }
 
 .title--color-black { color: black; text-align: center; }
 
@@ -157,7 +159,7 @@ ul { list-style: none; }
 
 .best__item { -webkit-box-flex: 1; -ms-flex: 1; flex: 1; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
 
-.best__title { text-align: center; }
+.best__title { text-align: center; font-family: 'Lifehack-Medium',Arial, sans-serif; font-size: 24px; color: #2f3234; }
 
 .best__text { text-align: center; font-family: 'Ubuntu',Arial, sans-serif; font-weight: 300; font-size: 14px; line-height: 24.07px; }
 
@@ -172,6 +174,10 @@ ul { list-style: none; }
 .reviews__item:hover { opacity: 1; -webkit-transform: scale(1); -ms-transform: scale(1); transform: scale(1); }
 
 .reviews__hover-block { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.5); opacity: 0; -webkit-transform: scale(0.8); -ms-transform: scale(0.8); transform: scale(0.8); -webkit-transition: .5s; -o-transition: .5s; transition: .5s; }
+
+.reviews__hover-block { font-family: 'Ubuntu',Arial, sans-serif; font-size: 14px; color: #fff; }
+
+.reviews__title { font-family: 'Garalin-Regular',Arial, sans-serif; font-size: 14px; font-weight: 300; }
 
 .order { background: #000; }
 
