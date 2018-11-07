@@ -1,0 +1,33 @@
+.fixed {
+    position: fixed;
+    top: 139px;
+    right: 57px;
+}
+
+    .fixed-menu__item {
+        width: 16px;
+        height: 16px;
+        margin-bottom: 6px;
+        
+}
+.fixed-menu__link:after,
+.fixed-menu__link:before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    background: #fff;
+    
+
+}
+
+.fixed-menu__link-active:after {
+    width: 16px;
+    height: 16px;
+    top: 11px;
+    left: 5px;
+    border: 1px solid #fff;
+  
+}
