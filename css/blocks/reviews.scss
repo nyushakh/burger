@@ -6,11 +6,14 @@
     display: flex;
     flex-wrap: wrap;
     height: 100%;
+    padding-left: 0%;
+    
 }
 
 .reviews__item {
     height: 50%;
     width: 25%;
+    position: relative;  
     background: center center / cover no-repeat;
 
     &:hover{
@@ -23,9 +26,8 @@
 .reviews__item:hover {
     opacity: 1;
     transform: scale(1);
-
+    
 }
-
 
 .reviews__hover-block{
     position: absolute;

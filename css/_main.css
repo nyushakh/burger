@@ -151,7 +151,7 @@ h1 { font-style: normal; }
 
 .title { color: #f9bb4c; font-size: 72px; text-transform: uppercase; margin-bottom: 20px; font-family: 'Gagalin-Regular',Arial, sans-serif; font-style: normal; }
 
-.title--color-black { color: black; text-align: center; }
+.title--color-black { color: black; text-align: center; margin-bottom: 60px; }
 
 .best { background: url(/img/fon/best.png) center center/cover no-repeat; }
 
@@ -163,11 +163,13 @@ h1 { font-style: normal; }
 
 .best__text { text-align: center; font-family: 'Ubuntu',Arial, sans-serif; font-weight: 300; font-size: 14px; line-height: 24.07px; }
 
+.best__img { margin-bottom: 15px; }
+
 .reviews { background: #000; }
 
-.reviews__list { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; height: 100%; }
+.reviews__list { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; height: 100%; padding-left: 0%; }
 
-.reviews__item { height: 50%; width: 25%; background: center center / cover no-repeat; }
+.reviews__item { height: 50%; width: 25%; position: relative; background: center center / cover no-repeat; }
 
 .reviews__item:hover .reviews__hover-block { opacity: 1; -webkit-transform: scale(1); -ms-transform: scale(1); transform: scale(1); }
 
@@ -183,10 +185,12 @@ h1 { font-style: normal; }
 
 .form { color: #fff; }
 
-.fixed { position: fixed; top: 139px; right: 57px; }
+ul li { list-style: none; }
 
-.fixed-menu__item { width: 16px; height: 16px; margin-bottom: 6px; }
+.fixed-menu { position: fixed; }
 
-.fixed-menu__link:after, .fixed-menu__link:before { content: ""; width: 6px; height: 6px; display: block; position: absolute; border-radius: 50%; background: #fff; }
+.fixed-menu__link { width: 5px; height: 5px; display: block; position: relative; }
 
-.fixed-menu__link-active:after { width: 16px; height: 16px; top: 11px; left: 5px; border: 1px solid #fff; }
+.fixed-menu__item { margin-top: 16px; border: 1px solid #fff; border-radius: 50%; padding: 5px; }
+
+.fixed-menu__link:after { content: ""; background: #fff; color: #fff; height: 5px; width: 5px; display: block; border-radius: 50%; }
