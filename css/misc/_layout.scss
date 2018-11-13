@@ -1,24 +1,49 @@
+.html {
+    font-size: rem(16px);
+    @include tablets {
+        font-size: 14px;
+
+    }
+
+    @include phones {
+        font-size: 13px;
+    }
+}
+
 .container{
     margin: 0 auto;
-    width: 940px;
-    height: 100%;
+    width: 100%;
+    max-width: 940px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 
+
      &--without-align {
          justify-content: initial;
      }
+}
+
+.container {
+    @include tablets {
+    width: 95%;
+    } 
+}
+    
+    
+
+
+.wrapper {
+   position: relative;
+   min-height: 100%;
+   overflow: hidden;
+
 }
 .section {
     height: 100vh;
     min-height: 650px;
 }
 
-.container {
-    margin: 0 auto;
-    width: 940px;
-}
 
 ul {
     list-style: none;
@@ -26,4 +51,8 @@ ul {
 
 h1 {
     font-style: normal;
+}
+
+a {
+    text-decoration: none;
 }

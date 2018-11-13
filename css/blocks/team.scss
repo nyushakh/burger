@@ -1,0 +1,38 @@
+.team {
+    background: url(/img/team/team.png) center center / cover no-repeat;
+    position: relative;
+
+}
+.team__content {
+    background: rgba(47, 50, 52, 0.9);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 6% 9% 6% 7%;
+
+
+}
+
+.team-acco__item {
+    margin-bottom: 5%;
+}
+
+.team-acco__content {
+    display: flex;
+}
+
+.team-acco__trigger {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+    font-family: "Garalin-Regular" , Arial, sans-serif;
+    font-size: rem(20px);
+    font-weight: 400;
+}   

@@ -16,17 +16,17 @@ background: url(/img/fon/best.png) center center/cover no-repeat;
 .best__title {
     text-align: center;
     font-family: 'Lifehack-Medium',Arial, sans-serif;
-    font-size: 24px;
+    font-size: rem(24px);
     color: #2f3234;
 }
 .best__text {
     text-align: center;
     font-family: 'Ubuntu',Arial, sans-serif; 
     font-weight: 300;
-    font-size: 14px;
-    line-height: 24.07px;
+    font-size: rem(14px);
+    line-height: rem(24px);
 }
 
 .best__img {
-    margin-bottom: 15px;
+    margin-bottom: rem(15px);
 }

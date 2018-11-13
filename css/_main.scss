@@ -4,9 +4,18 @@ $yellow: #f9b43b;
 $black: #2f3234;
 $red: red;
 
+//breakpoints
+$tablets: 768px;
+$phones: 480px;
+
+//normalize
 @import "misc/normalize";
+
+@import "misc/media";
+
 @import "misc/layout";
 @import "misc/fonts";
+
 
 
 
@@ -19,4 +28,5 @@ $red: red;
 @import "blocks/reviews.scss";
 @import "blocks/form.scss";
 @import "blocks/fixed.scss";
-
+@import "blocks/team.scss";
+@import "blocks/hamburger-menu-link.scss";
