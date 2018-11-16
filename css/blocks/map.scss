@@ -1,3 +1,11 @@
-.map {
-    background-image: url(/img/map/map.jpg) center center / cover no-repeat;
+.yandex-map {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
 }
+
+.map {
+	background: url(/img/map/map.jpg) center center/cover no-repeat;
+	}

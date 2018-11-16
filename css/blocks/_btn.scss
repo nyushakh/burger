@@ -6,21 +6,12 @@
     color: #fff;
     font-size: rem(13px);
     text-transform:uppercase; 
+
+    
+    
+}
+.btn--bg-black {
+    background: rgba(#2f3234, .93);
 }
 
 
-
-.to-next-section {
-    display: flex;
-    position: absolute;
-    background: transparent;
-    border: none;
-}
-
-.arrow-scroll {
-    
-    position: absolute;
-    
-    right: rem(535px);
-    
-}

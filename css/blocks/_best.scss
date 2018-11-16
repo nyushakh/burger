@@ -5,28 +5,60 @@ background: url(/img/fon/best.png) center center/cover no-repeat;
 
 .best__list {
     display: flex;
+
+    @include phones {
+    flex-direction:column;
+ }
 }
 .best__item {
-    flex: 1;
+    margin-bottom: rem(50px);
+    padding: 0 rem(15px);
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
+    flex: 0 1 31%;
+    
+    @include phones {
+        flex-direction: row;
+        text-align: left;
+        align-items: flex-start;
+
+        margin-bottom: 3.4375rem;
+
+    }
 }
+
+
 
 .best__title {
     text-align: center;
     font-family: 'Lifehack-Medium',Arial, sans-serif;
     font-size: rem(24px);
     color: #2f3234;
+    @include phones {
+        text-align: left;
+
+    }
 }
 .best__text {
-    text-align: center;
+    text-align:center;
     font-family: 'Ubuntu',Arial, sans-serif; 
     font-weight: 300;
     font-size: rem(14px);
     line-height: rem(24px);
+    opacity: 0.8;
+
+    @include phones {
+        text-align: left;
+        padding-right: 3rem;
+
+    }
+    
 }
 
 .best__img {
     margin-bottom: rem(15px);
+    @include phones {
+    margin-right: 15px;
+}
 }

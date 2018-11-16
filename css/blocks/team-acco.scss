@@ -1,0 +1,99 @@
+.team-acco {
+}
+
+.team-acco__item {
+  margin-bottom: rem(40px);
+  
+	&:last-child {
+		margin-bottom: 0;
+	}
+
+	&.active {
+		.team-acco__trigger {
+			color: #f9bb4c;;
+
+			&:before {
+				transform: rotate(-180deg);
+			}
+		}
+	}
+}
+
+.team-acco__trigger {
+	color: #fff;
+	font-size: rem(14px);
+ font-family: 'Gagalin-Regular',Arial, sans-serif;
+	text-decoration: none;
+	position: relative;
+  display: inline-flex;
+  margin-bottom: rem(20px);
+  align-items: center;  
+  
+
+
+	&:before, &:after {
+		content: "";
+		display: block;
+		position: absolute;
+		left: rem(-18px);
+		top: rem(8px);
+		width: 0;
+    height: 0;
+	}
+
+	&:before {
+		border-top: rem(7px) solid #f9bb4c;;
+		border-left: rem(5px) solid transparent;
+		border-right: rem(5px) solid transparent;
+		border-bottom: rem(0px) solid transparent;
+		transform: rotate(0deg);
+		transition: .3s;
+	}
+
+	&:after {
+		display: none;
+		border-bottom: rem(7px) solid #f9bb4c;;
+		border-left: rem(5px) solid transparent;
+		border-right: rem(5px) solid transparent;
+		border-top: rem(0px) solid transparent;
+	}
+}
+
+.team-acco__content {
+  padding-top: rem(14px);
+  display: none;
+}
+
+.team-acco__pic {
+	text-align: center;
+	width: 30%;
+}
+
+.team-acco__img {
+	width: rem(100px);
+	height: rem(100px);
+	
+}
+
+.team-acco__text {
+	width: 70%;
+}
+
+.team-acco__pic, .team-acco__text {
+}
+
+.team-acco__title {
+	
+	font-weight: 400;
+	font-family: 'Ubuntu',Arial, sans-serif;
+	font-size: rem(14px);
+	color: #fff;
+	margin-bottom: rem(14px);
+}
+
+.team-acco__text-content {
+	font-weight: 300;
+	font-family: 'Ubuntu',Arial, sans-serif;
+	color: #fff;
+	font-size: rem(14px);
+}

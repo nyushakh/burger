@@ -2,16 +2,19 @@
   color: #f9bb4c;
   font-size: rem(72px);
   text-transform: uppercase;
-  margin-bottom: rem(20px);
+  margin-bottom: rem(15px);
   font-family: 'Gagalin-Regular',Arial, sans-serif;
   font-style: normal;
-  
+  @include tablets {
+    font-size: rem(55px);
+  }
   
 }
   .title--color-black {
     color: black;
     text-align: center; 
     margin-bottom: rem(60px);
+    padding-top: 15%;
    }
 
    .title--team {
