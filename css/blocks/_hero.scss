@@ -11,6 +11,9 @@
     @include tablets {
         flex-direction: column;
         text-align: center;
+    @include phones {
+        padding: 0 5%;
+    }
         
 }
 }

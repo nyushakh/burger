@@ -1,18 +1,14 @@
 .footer {
+  position: relative;
   display: flex;
   align-items: flex-end;
   background: black;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: rem(10px) 0;
+  margin-top: -60px;
+  height: 60px;
 }
-
-.footer__container {
+.footer {
   display: flex;
   flex-direction: row;
-  align-items: center;
   @include phones {
     flex-direction: column;
   }
