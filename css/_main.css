@@ -303,9 +303,7 @@ ul li { list-style: none; }
 
 .menu__title { position: absolute; top: 10%; left: 10%; }
 
-.yandex-map { position: absolute; top: 0; bottom: 0; left: 0; right: 0; }
-
-.map { background: url(/img/map/map.jpg) center center/cover no-repeat; height: 60px; }
+.map { position: relative; }
 
 .footer { position: relative; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; background: black; margin-top: -60px; height: 60px; }
 
@@ -384,3 +382,5 @@ ul li { list-style: none; }
 .slider__arrow-left svg { -webkit-transform: rotate(90deg); -ms-transform: rotate(90deg); transform: rotate(90deg); margin-left: 10px; }
 
 .arrow { height: 14px; width: 29px; }
+
+.slider__wrap { display: -webkit-box; display: -ms-flexbox; display: flex; overflow: hidden; width: 100%; position: relative; }
